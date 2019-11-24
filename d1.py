@@ -1,6 +1,6 @@
 #Rahma = "hello rahma"
 #print ("Rahman\bmaher")
-
+#
 #------------------------------------------------------------------
 #age = int(input("what is your Age?"))
 #print (age)
@@ -11,16 +11,16 @@
 #print(z)
 #-----------------------------------------------------------------
 #DAY 2
-
+#
 #a,b = 1,10
 #if a >b:
 #    print("a > b")
 #elif a <b:
 #    print("a < b")
 #else:
-#    print("a = b")
-
-
+#    print("a = b").                                                               
+#
+#
 #
 #a,b,c=1,10,55
 #max = a if (a > b > c) else c 
@@ -34,7 +34,7 @@
 #a =100
 #b =330
 #print ('a') if a > b else print ("=") if a == b else print("b")
-
+#
 #
 #a= int(input("inter number"))
 #b= int(input("inter number"))
@@ -42,8 +42,8 @@
 #    print( b ,a)
 #else:
 #    print( a, b)
-
-
+#
+#
 #-----------------------------------------------------------------
 #name = (input("enter your name"))
 #age = int(input("enter your age"))
@@ -85,7 +85,7 @@
 #    if x == "banana":
 #        continue
 #    print(x)
-
+#
 #---------------------------------------------
 #
 #for x in range(6):
@@ -103,20 +103,20 @@
 #while i<10:
 #    print("*")
 #    i+=1
-
+#
 #----------------------------------------------------
 #i =0
 #while i<31:
 #    print("*" , end='')
 #    i+=1
 #---------------------------------------------------
-
-
-for x in range(10):
-    for i in range(x):
-       print("*",end="")
-    print()
-
+#
+#
+#for x in range(10):
+#    for i in range(x):
+#       print("*",end="")
+#    print()
+#
 #-------------------------------------------------
 #for x in range(8):
 #    for i in range(x):
@@ -129,52 +129,41 @@ for x in range(10):
 #while True:
 #     try:
 #         n = input("Please enter an integer: ")
-#         n = int(n)
+#         n = int(n).
 #         break
+#
+#================================================
+#DAY4
+#def my_function(food):
+#   for x in food:
+#     print(x)
+#fruits = ["apple", "banana", "cherry"]
+#my_function(fruits)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#------------------------------------------------------
+#def myfun(**kwargs):
+#    for key, value in kwargs.items():
+#        print("%s == %s" %(key,value))
+#myfun(first='Geeks',mid='for',last='geeks')
+#---------------------------------------------------
+#def factorial(n):
+#    if n ==1:
+#        return 1
+#    else:
+#        return n * factorial(n-1)
+#print(factorial(5))
+#====================================================
+#sum = lambda x,y,z :x * y *z
+#print (sum(1,2,3))
+#
+#=====================================================
+#areas = [1,5,6,6,8,7]
+#rahma = list(map(lambda x:x*2,areas))
+#print(rahma)
+#-------------------------------------------------
+#mark = [66,90,68,76,80,74]
+#number= list(filter(lambda x:x >, mark))
+#print(number)
 
 
 
