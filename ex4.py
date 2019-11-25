@@ -49,15 +49,17 @@
 #output=['e', 'o']
 #==================================================
 #9
-#print(list(map(int, input("Enter").split())))
+#x=list(map(int, input("Enter").split()))
+#print("list of students:",x)
+
 
 #-----------------------------------
 #10
 #def newfunc (a):
 #    return a*a
-#x= list(map(newfunc,(1,2,3,4)))
+#x = list(map(newfunc,(1,2,3,4)))
 #print(x)
-#
+
 #========================================
 #11
 #def func(a,b):
@@ -67,26 +69,26 @@
 #([3, 6, 8])
 #======================================
 #12
-#print(list(map(lambda x:x+x, filter(lambda x:(x>=3),(1,2,3,4)))))
-#([6, 8])
+#c=map(lambda x:x+x, filter(lambda x:(x>=3),(1,2,3,4)))
+#print(list(c))
 #=====================================
 #13
-
-#print(list(filter(lambda x:(x>=3),map(lambda x:x+x,(1,2,3,4)))))
-#output([4, 6, 8])
+#
+#c=filter(lambda x:(x>=3),map(lambda x:x+x,(1,2,3,4)))
+#print(list(c))
 
 #===================================
 #14
-
 #from functools import reduce
-#number = [1,2,5,0,7,-5,6,0]
-#print(reduce(lambda a,b: a if a<b else b,number))
+#nums = [1,2,3,-9,4]
+#
+#result =reduce(lambda first, nex: first if first < nex else nex, nums)
+#
+#print(result)
 #========================================
 #15
-#numbers =[1,2,3]
-#letters = ["a","b","c"]
-#print(list(zip(numbers,letters)))
-
-
-
+#number=[1,2,3]
+#letters=['a','b','c']
+#result = list(zip(number,letters))
+#print(result)
 

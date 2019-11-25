@@ -164,6 +164,83 @@
 #mark = [66,90,68,76,80,74]
 #number= list(filter(lambda x:x >, mark))
 #print(number)
+#=================================================
+#DAY5
+#class person:
+#    
+#    
+#    def __init__(self,name) :
+#        self.name = name
+#    def whoami(self):
+#        return"Iam"+self.name
+#    def __del__(self):
+#        print('i deleted')
+#                
+#p1 = person('tom')
+#print(p1.whoami())
+#print(p1.name)
+#del p1
+#
+#==================================================
+#class Encapsulation():
+#    def __init__(self,a,b,c):
+#        self.Apublic = a
+#        self._Bprotected = b
+#        self.__Cprivate =c
+#    def getprivate(self):
+#         return self.__Cprivate
+#    def setprivate(self,n):
+#        self.__Cprivate=n
+#x = Encapsulation(11,13,17)
+#print ( x.Apublic )
+#print ( x._Bprotected )
+##print ( x.__Cprivate)
+#print ( x.getprivate())
+#x.setprivate(2)
+#print ( x.getprivate())
+#        
+#
+#============================================
+class A():
+    def __init__(self):
+        print("rahma")
+class B(A):
+    def __init__(self):
+        print("hello") 
+        super().__init__()
+        A.__init__(self)
+b1=B()        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
