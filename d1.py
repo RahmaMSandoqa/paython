@@ -201,32 +201,85 @@
 #        
 #
 #============================================
-class A():
-    def __init__(self):
-        print("rahma")
-class B(A):
-    def __init__(self):
-        print("hello") 
-        super().__init__()
-        A.__init__(self)
-b1=B()        
+#class A():
+#    def __init__(self):
+#        print("rahma")
+#class B(A):
+#    def __init__(self):
+#        print("hello") 
+#        super().__init__()
+#        A.__init__(self)
+#b1=B()        
+#
+#===============================================
+#class circle:
+#    def __init__(self,redius):
+#        self.__redius = redius
+#        
+#    def setRadius(self,redius):
+#        self.__rediusc = redius 
+#
+#    def getRedius(self):
+#        return self.__redius
+#    def __add__(self,another_circle) :
+#
+#        return circle(self.__redius + another_circle.__redius )
+# c1 = Circle(4)
+# print(c1.getRadius())
+# c2 = Circle(5)
+# print(c2.getRadius())
+# c3 = c1 + c2
+# print(c3.getRadius())   
+#======================================================
+#DAY7
+#b = np.array([1,4,7,5])
+#print(b)
+#
 
 
+#c = np.array([[1,4,7,5],[2,8,3,2]])
+#print(c)
+#
 
+#a = np.array([[1,2,3,5,4,67,9,6,4],[9,4,5,4,6,5,7,9,6]])
+#print('\n quicksort:')
+#print(a)
+#print(
+#      )
 
+#import matplotlib.pyplot as plt
+#f = [1,2,8,4,5,6]
+#plt.plot(f)
+#plt.show()
 
+#plt.style.use("ggplot")
+#x=[1,2,3,4,5,6]
+#y=[1,4,9,16,0,30]
+#
+#plt.plot(x,y)
+#plt.ylabel("y number")
+#plt.xlabel("x number")
+#plt.show()
+#==============================================
 
+#import numpy as np
+#import matplotlib.pyplot as plt
+#def p1(x): return x**4 -4*x**2 + 3*x 
+#def p2(x): return np.sin(10*x) * 10 
+#X = np.linspace(-3, 3, 200)
+#plt.plot( X,p1(X), X,p2(X))
+#plt.show()
+#=============================================
+#import numpy as np
+#import matplotlib.pyplot as plt
+#n = 1024
+#x = np.random.normal(0,1,n)
+#y = np.random.normal(0,1,n)
+#
+#plt.scatter(x,y)
+#plt.show()
 
-
-
-
-
-
-
-
-
-
-
+#==============================================
 
 
 
