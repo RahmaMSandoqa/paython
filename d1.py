@@ -280,16 +280,63 @@
 #plt.show()
 
 #==============================================
+##Day8
+#import pandas as pd
+#data = [100, 120, 140, 180, 200, 210, 214]
+#s = pd.Series(data, index=['a', 'b', 'c', 'd', 'e', 'f', 'g'])
+#
+#print(s)
+#
+##print (s.describe())
+#s.plot(kind="bar")
+#print (s.agg(["sum","max"]))
+#s.plot()
+#=============================================
+#import numpy as np
+#import pandas as pd
+#dates = pd.date_range('20190101', periods=8)
+#df= pd.DataFrame(np.random.randn(8, 4), index=dates, columns=list('PQRS'))
+##print(df.head())
+#print(df['P'])
+#===========================================
+#import numpy as np
+#import pandas as pd
+#dates = pd.date_range('20190101', periods=8)
+#df= pd.DataFrame(np.random.randn(8, 4), index=dates, columns=list('PQRS'))
+##print(df.head())
+#print(df[0:1])
+##print(df['20190102':'20190104'])
+#==========================================
 
+#import numpy as np
+#import pandas as pd
+#dates = pd.date_range('20190101', periods=8)
+#df= pd.DataFrame(np.random.randn(8, 4), index=dates, columns=list('PQRS'))
+##print(df.head())
+#print(df.iloc[:, 1:3])
+#============================================
+#import pandas as pd
+#import numpy as np
+#d = {'one':[1,2,3,4,5],
+#     'two':[2,2,2,2,2],
+#     'letter':['a','a','b','b','c']}
+#
+#df= pd.DataFrame(d)
+#df.to_csv('myDataFrame.csv', sep='\t')
+#print(df)
+#print( df['one'].apply( np.sqrt) ) 
+#print( df['letter'].map(lambda x : 'map_' + x) )
 
-
-
-
-
-
-
-
-
+#=============================================
+#import pandas as pd
+#df= pd.read_csv('myDataFrame.csv',sep='\t',index_col=0)
+#print(df) 
+#============================================
+#import pandas as pdd = {'one':[10,20,5,40,70,10,20,5,40,70],
+#                          'two':[14,0,30,40,20,14,0,70,40,20]}
+#df= pd.DataFrame(d,columns=["one", "two"])
+#df.plot()
+#
 
 
 
