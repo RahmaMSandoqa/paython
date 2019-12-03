@@ -459,23 +459,104 @@
 #            values.append(s.cell(row,col).value)
 #        print(",".join(str(values)))
 #================================================================
+#from tkinter import *
+#import tkinter as tk
+#
+#root = Tk(className=" My First GUI ")
+#fw = 300
+#fh = 150
+#x  = ( root.winfo_screenwidth() - fw ) / 2
+#y  = ( root.winfo_screenheight() - fh ) / 2 - 50
+##root.geometry("300x150+50+50")
+#root.geometry( '%dx%d+%d+%d' %(fw,fh,x,y) )
+#root.mainloop()
+#top.geometry("200*100")
+#b = button(top,text = "try")
+#b.pack()
+#top.mainloop()
+#root = tk.Tk()
+#label = tk.Label(root,text="Hello world", padx=10, pady=10)
+#label.pack()
+#root.mainloop()
+#=========================================        
+#from tkinter import *
+#top = Tk()
+#top.geometry("200x100")
+#b = Button( top,text = "simple")
+#b.pack()
+#top.mainloop()
+        
+#==========================================
+#from tkinter import *
+#from tkinter import messagebox
+#def pressed():
+##    print ("hello iam rahma")
+#    answer = messagebox.askquestion("jjjjj","oihiugig")
+#    if answer == "yes":
+#        print("i like")
+#    else:
+#        print("no")
+#root = Tk()
+#button = Button(root,text = "rahma", command = pressed)       
+#button.pack(pady = 40, padx = 40)
+#root.mainloop()
+#        
+#=============================================        
+#from tkinter import *
+#
+#win = Tk()
+#v = StringVar()
+#e = Entry(win,textvariable = v)
+#e.pack()
+#v.set("rahma sandoqa")
+#print(v.get())
+#win.mainloop()        
+#================================================
+#from tkinter import *
+#root = Tk(className="my first")
+#svalue = StringVar()
+#w = Entry(root,textvariable=svalue)
+#w.pack()
+#def act():
+#    print("your entered")
+#    print("%s" % svalue.get())
+#foo = Button(root,text="press me",command=act)
+#foo.pack()
+#root.mainloop()       
+#================================================
+#from tkinter import *
+#root = Tk()
+#root.title("menu_win")
+#def notdone():
+#    messagebox.showinfo("not implemented","not yet available")
+#top = Menu(root)
+#root.config(menu=top)
+#
+#
+#file = Menu(top,tearoff=0)
+#file.add_command(label="new",command=notdone)      
+#file.add_command(label="open",command=notdone)        
+#file.add_separator()
+#file.add_command(label="quit",command=root.destroy)
+#top.add_cascade(label="file",menu=file)
+#
+#
+#edit = Menu(top,tearoff=0)
+#edit.add_command(label="cut",command=notdone)
+#edit.add_command(label="past",command=notdone)
+#top.add_cascade(label="edit",menu=edit)
+#root.mainloop()
+#=================================================
+#from tkinter import *
+#from tkinter.colorchooser import *
+#def getColor():
+#    color = askcolor()
+#    print(color)
+#Button(text="select",command=getColor).pack()
+#mainloop()    
 
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+#=====================================================
+       
         
         
         
