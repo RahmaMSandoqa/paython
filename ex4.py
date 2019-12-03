@@ -15,7 +15,7 @@
 #================================================
 #ex4
 #print(list(filter(lambda x: x<0, range(-5,5))))
-
+#
 #================================================\
 #ex5
 #x= lambda a,b,c:a+b+c
@@ -51,15 +51,15 @@
 #9
 #x=list(map(int, input("Enter").split()))
 #print("list of students:",x)
-
-
+#
+#
 #-----------------------------------
 #10
 #def newfunc (a):
 #    return a*a
 #x = list(map(newfunc,(1,2,3,4)))
 #print(x)
-
+#
 #========================================
 #11
 #def func(a,b):
@@ -76,7 +76,7 @@
 #
 #c=filter(lambda x:(x>=3),map(lambda x:x+x,(1,2,3,4)))
 #print(list(c))
-
+#
 #===================================
 #14
 #from functools import reduce
@@ -91,4 +91,4 @@
 #letters=['a','b','c']
 #result = list(zip(number,letters))
 #print(result)
-
+#

@@ -336,18 +336,150 @@
 #                          'two':[14,0,30,40,20,14,0,70,40,20]}
 #df= pd.DataFrame(d,columns=["one", "two"])
 #df.plot()
+#======================================
+#DAY9
+#import statistics as st
+#import random
+#x =[3,1.5,4.5,6.75,2.25,5.75,2.25]
+#print(st.mean(x))
+#print(st.harmonic_mean(x))
+#print(random.random())
+#=========================================
+#import math
+#n = 100.2
+#print(math.floor(n))
+#print(math.ceil(n))
 #
+#=====================================
+#import doctest
+#def sum(a,b):
+#    """
+#    calculates the sum
+#    >>> sum(1,1)
+#    3
+#    >>> sum(1,-1)
+#    0
+#    >>> sum(-1,-1)
+#    -2
+#    >>> sum(0,-10)
+#    -10
+#    >>>
+#    """
+#    return a*b
+#if __name__=="__main__":
+#    doctest.testmod(verbose = True)
+
+#====================================
+#from PIL import Image
+#size =(128,128)
+#saved = "cat.jpg"
+#try:
+#    im=Image.open("cat.jpg")
+#except:
+#    print("unable")    
+#original = Image.open("cat.jpg")
+#blurred = original.filter(ImageFilter.BLUR)
+#im.thumbnail(size)
+#im.save(saved)
+#original.show()
+#blurred.show()
+#blurred.save("cat.jpg")
+#====================================
+#from PIL import Image
+#image = Image.open("cat.jpg")
+#greyscale_image = image.convert("L")
+#greyscale_image.show()
+#=====================================
+
+#import sympy as sym
+#x = sym.symbols('x')
+#expr = x + 1
+#print ( expr.subs(x, 2) )
+
+#=====================================
+#import sympy as sym
+#x = sym.symbols('x')
+#expr= x + x**2 + 1
+#print( expr.subs(x, 2) )
+#====================================
+#from sympy import *
+#x = symbols('x')
+#init_printing()
+#expr = Integral(sqrt(1/x),x)
+#print(expr)
+#===================================
+#import sympy as sym
+#x = sym.Symbol('x')
+#y, i ,n, a, b = sym.symbols('y i n a b')
+#print(  sym.expand( (x + y) ** 3 )   )
+#print ( sym.limit(sym.sin(x)/ x, x,0))
+#print (sym.integrate(6 * x ** 5,x))
+#print ()
+#=====================================
+#solution = sym.solve((x + 5 * y -2, -3 * x + 6 
+#* y -15), (x, y))
+#print(solution[x], solution[y])
+#====================================
+#from sympy import symbols
+#from sympy.plotting import plot3d
+#x, y = symbols('x y')
+#f=cos(x)+sin(y) 
+#plot3d(f, (x, -10, 10), (y, -10, 10))
+#===================================
+#import xlsxwriter
+#workbook = xlsxwriter.Workbook("rahmaex.xLsx")
+#worksheet = workbook.add_worksheet()
+#worksheet.autofilter("A1:B4")
+#
+#data = ["mark",10,20,30,50,40,60]
+#
+#format = workbook.add_format()
+#format.set_bold()
+#format.set_font_color("red")
+#format.set_font_size(10)
+#
+#worksheet.write_column("A1",data,format)
+#worksheet.write_comment("B2","this is a comment")
+#
+#
+#format2= workbook.add_format({"bold":True,"font_color": "blue"})
+#worksheet.write_column("B1",data,format2)
+#workbook.close()
+#
+#===============================================================
+#from xlrd import open_workbook
+#
+#wb = open_workbook("rahmaex.xLsx")
+#
+#for s in wb.sheets():
+#    print("sheet:",s.name)
+#    for row in range(s.nrows):
+#        values = []
+#        for col in range(s.ncols):
+#            values.append(s.cell(row,col).value)
+#        print(",".join(str(values)))
+#================================================================
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
